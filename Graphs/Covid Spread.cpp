@@ -1,14 +1,9 @@
-//First Way
-//{ Driver Code Starts
-//Initial Template for C++
 
 
 #include<bits/stdc++.h> 
 using namespace std; 
 
 
-// } Driver Code Ends
-//User function Template for C++
 
 class Solution {
 public:
@@ -21,13 +16,11 @@ bool isValid(int nr,int nc,int r,int c){
 }
     int helpaterp(vector<vector<int>> hospital)
     {
-        //code here
         int n = hospital.size();
         int m = hospital[0].size();
         int r=-1 ,c=-1;
         bool found = false;
         
-        //Finding the point where to start
         for(int i =0 ; i < n ; i ++){
             for(int j =0 ;  j < m ; j ++){
                 if(hospital[i][j]==2){
